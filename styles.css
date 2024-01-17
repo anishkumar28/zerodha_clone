@@ -86,6 +86,9 @@
 }
 
 
+.marketing{
+    padding-top: 100px;
+}
 
 
 .container{
@@ -125,6 +128,7 @@
 }
 
 .column{
+    height: auto;
     box-sizing: border-box;
     flex: 0 1 auto;
     margin: none;
@@ -154,4 +158,79 @@
 
 .press-strip a p{
     border-style: none;
+}
+
+.ecosystem{
+    padding: 100px 0;
+
+}
+
+.middle{
+    align-items: center;
+}
+
+.text-center{
+   text-align: center;
+}
+
+.five{
+    flex-basis: 39.3333333333%;
+    width: 39.3333333333%;
+}
+
+.seven{
+    flex-basis: 56.66666666667%;
+    width: 56.66666666667%;
+}
+
+
+.seven .text-center p{
+    color: #387ed1;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.seven p{
+    width: 100%;
+    font-size: 1rem;
+    justify-content: space-between;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.seven p a{
+    display: inline-block;
+    color: #387ed1;
+    text-decoration: none;
+    font-weight: 500;
+    gap: 80px;
+}
+
+
+.seven p a:hover{
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    gap: 40px;
+    cursor: pointer;
+}
+
+h2{
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: 500;
+    margin-top: 0px;
+}
+
+h4{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.why_us_section{
+    margin: 20px;
+    margin-top: 40px;
+    
 }

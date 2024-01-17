@@ -50,7 +50,7 @@
     align-items: center;
 }
 
-.div-sub button{
+button{
     display: inline-block;
     margin-top: 25px;
     padding: 10px 30px;
@@ -68,7 +68,7 @@
     
 }
 
-.div-sub button:hover{
+button:hover{
     background-color: black;
 }
 
@@ -87,7 +87,7 @@
 
 
 .marketing{
-    padding-top: 100px;
+    padding-top: 100px !important;
 }
 
 
@@ -97,6 +97,10 @@
     max-width: 100%;
     margin: 0 auto;
     box-sizing: border-box;
+}
+
+.no-margin-mobile{
+    margin-left: 0px;
 }
 
 .column-img{
@@ -117,10 +121,6 @@
     display: flex;
 }
 
-.between{
-    justify-content: space-between;
-}
-
 .row{
     display: flex;
     flex: 0 1 auto;
@@ -134,26 +134,24 @@
     margin: none;
 }
 
+.columns{
+    box-sizing: border-box;
+    flex: 0 1 auto;
+}
+
 .six{
     flex-basis: 48%;
     width: 48%;
 }
 
-.column .list-items{
+.list-items{
     padding-left: 20px;
 }
 
-.column p{
+p{
     font-size: 1rem;
     line-height: 1.8;
     margin-bottom: 15px;
-}
-
-.press-strip a{
-    color: #387ed1;
-    text-decoration: none;
-    font-weight: 500;
-    background-color: rgba(0,0,0,0);
 }
 
 .press-strip a p{
@@ -198,7 +196,7 @@
     margin-bottom: 15px;
 }
 
-.seven p a{
+a{
     display: inline-block;
     color: #387ed1;
     text-decoration: none;
@@ -233,4 +231,42 @@ h4{
     margin: 20px;
     margin-top: 40px;
     
+}
+
+.around{
+    justify-content: space-around;
+}
+
+.column p{
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.mini-container{
+    width: 900px;
+    margin: auto;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.kite-sections{
+    padding: 40px 0;
+}
+
+.kitefooter-container{
+    padding-bottom: 60px;
+}
+
+section{
+    padding-bottom: 80px;
+}
+
+img{
+    max-width: 100%;
+    border-style: none;
+}
+
+.between{
+    justify-content: space-between;
 }
